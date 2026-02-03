@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Date Request 💘</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #d6336c;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 22px;
+}
+
+.info {
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+button {
+    font-size: 20px;
+    padding: 15px 30px;
+    margin: 15px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.yes {
+    background-color: #ffb3c7;
+}
+
+.ofcourse {
+    background-color: #ff85a2;
+}
+
+#result {
+    margin-top: 30px;
+    font-size: 22px;
+    color: #d6336c;
+    display: none;
+}
+</style>
+</head>
+<body>
+
+<h1>💘 Date Request 💘</h1>
+
+<p>Would you be my Valentine? 💌</p>
+
+<div class="info">📍 Location: Octo Restaurant – Guadalajara</div>
+<div class="info">📅 Date: February 14</div>
+<div class="info">⏰ Time: 8:00 PM</div>
+
+<br>
+
+<button class="yes" onclick="accept()">YES 💕</button>
+<button class="ofcourse" onclick="accept()">OF COURSE 😍</button>
+
+<div id="result">
+    ✅ Mano accepted to be Noni's Valentine 💖😌<br><br>
+    See you at Octo 💘✨
+</div>
+
+<script>
+function accept() {
+    document.getElementById("result").style.display = "block";
+}
+</script>
+
+</body>
+</html>
